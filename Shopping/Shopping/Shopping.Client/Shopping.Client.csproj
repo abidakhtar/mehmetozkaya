@@ -12,4 +12,16 @@
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.22.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\images\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\images\Headphone.jpeg" />
+    <None Include="wwwroot\images\Headphone1.jpeg" />
+    <None Include="wwwroot\images\Headphone2.jpeg" />
+    <None Include="wwwroot\images\iPhone.jpeg" />
+    <None Include="wwwroot\images\SmartPhone.jpeg" />
+  </ItemGroup>
+
 </Project>

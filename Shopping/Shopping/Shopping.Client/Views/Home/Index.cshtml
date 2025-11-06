@@ -1,8 +1,51 @@
-﻿@{
+﻿@model IEnumerable<Shopping.Client.Models.Product>
+
+@{
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<h1>Products</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(mbox => mbox.Name)
+                </th>
+            <th>
+                @Html.DisplayNameFor(mbox => mbox.Description)
+             </th>
+            <th>
+                @Html.DisplayNameFor(mbox => mbox.Price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(mbox => mbox.Category)
+            </th>
+            <th>
+                @Html.DisplayNameFor(mbox => mbox.ImageFile)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+       @foreach (var item in Model)
+       {
+        <tr>
+            <td>
+                @Html.DisplayFor(mbox => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(mbox => item.Description)
+            </td>
+            <td>
+                @Html.DisplayFor(mbox => item.Price)
+            </td>
+            <td>
+                @Html.DisplayFor(mbox => item.Category)
+            </td>
+            <td>
+                <img src="@Url.Content($"~/images/{item.ImageFile}")" alt="@item.Name" width="100" />
+            </td>
+         </tr>
+        }
+    </tbody>
+</table>
