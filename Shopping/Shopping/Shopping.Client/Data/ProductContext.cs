@@ -25,7 +25,7 @@
                 Name = "Headphones",
                 Category = "Accessories",
                 Description = "Noise-cancelling headphones for immersive sound.",
-                ImageFile = "Headphones.jpeg",
+                ImageFile = "Headphone.jpeg",
                 Price = 199.99m
             },
             new Models.Product
@@ -33,7 +33,7 @@
                 Name = "Headphones 1",
                 Category = "Accessories",
                 Description = "Noise-cancelling headphones for immersive sound.",
-                ImageFile = "Headphones1.jpeg",
+                ImageFile = "Headphone1.jpeg",
                 Price = 199.99m
             },
             new Models.Product
@@ -41,7 +41,7 @@
                 Name = "Headphones 2",
                 Category = "Accessories",
                 Description = "Noise-cancelling headphones for immersive sound.",
-                ImageFile = "Headphones2.jpeg",
+                ImageFile = "Headphone2.jpeg",
                 Price = 199.99m
             }
         };
