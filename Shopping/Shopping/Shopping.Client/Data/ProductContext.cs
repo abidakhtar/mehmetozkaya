@@ -43,6 +43,14 @@
                 Description = "Noise-cancelling headphones for immersive sound.",
                 ImageFile = "Headphone2.jpeg",
                 Price = 199.99m
+            },
+              new Models.Product
+            {
+                Name = "Headphones 3",
+                Category = "Accessories",
+                Description = "Noise-cancelling headphones for immersive sound.",
+                ImageFile = "61qFaIA630L.jpg",
+                Price = 199.99m
             }
         };
     }
