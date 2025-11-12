@@ -46,7 +46,7 @@
             },
               new Models.Product
             {
-                Name = "Headphones No 3 - new no 3",
+                Name = " Great Headphones",
                 Category = "Accessories",
                 Description = "Noise-cancelling headphones for immersive sound.",
                 ImageFile = "61qFaIA630L.jpg",
