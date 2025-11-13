@@ -46,7 +46,7 @@
             },
               new Models.Product
             {
-                Name = " Satvik's Headphones",
+                Name = " Satvik's first Headphones",
                 Category = "Accessories",
                 Description = "Noise-cancelling headphones for immersive sound.",
                 ImageFile = "61qFaIA630L.jpg",
