@@ -46,7 +46,7 @@
             },
               new Models.Product
             {
-                Name = " Superb Headphones",
+                Name = " Satvik's Headphones",
                 Category = "Accessories",
                 Description = "Noise-cancelling headphones for immersive sound.",
                 ImageFile = "61qFaIA630L.jpg",
